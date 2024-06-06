@@ -1,0 +1,46 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+
+.mx-auto{
+    margin: auto;
+}
+.m-w{
+    max-width: 30vw;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    padding: 17px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.row{
+    margin-top: 8px;
+}
+.row input{
+    height: 40px;
+    width: 215px;
+
+    margin: 0;
+    padding: 0px 6px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
